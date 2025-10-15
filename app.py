@@ -223,3 +223,7 @@ with tab3:
             st.info("Nenhum município próximo encontrado com os critérios selecionados.")
     else:
         st.warning("Não há municípios com IDHM acima da média para selecionar como polo. Verifique seus dados.")
+st.markdown("---")
+st.markdown(
+    "📖 **Fonte:** [IBGE - Recife, PE](https://www.ibge.gov.br/cidades-e-estados/pe/recife.html)"
+)
